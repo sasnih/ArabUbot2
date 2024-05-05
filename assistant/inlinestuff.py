@@ -13,14 +13,14 @@ from . import *
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Dev •", url="https://t.me/Arabnihnge"),
+        Button.url("• Support •", url="t.me/SiArab_support"),
     ],
 ]
 
-ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
-gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-aypic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+ofox = "https://telegra.ph//file/9f582dcc4cd9ad5c55a46.jpg"
+gugirl = "https://telegra.ph//file/9f582dcc4cd9ad5c55a46.jpg"
+aypic = "https://telegra.ph//file/b4d0932a803d470930e2c.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -36,8 +36,8 @@ async def repo(e):
             title="Naya Userbot",
             description="Userbot | Telethon",
             thumb=wb(aypic, 0, "image/jpeg", []),
-            text="**◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​ ◈**",
+            text="**◈ ᴧꝛᴧʙ ꭗ  ᴜꜱᴇʀʙᴏᴛ​ ◈**",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Naya-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="ᴧꝛᴧʙ ꭗ ᴜꜱᴇʀʙᴏᴛ", switch_pm_param="start")
