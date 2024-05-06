@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://telegra.ph//file/b4d0932a803d470930e2c.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/SiArab_Support"),
     ]
 ]
 
@@ -46,37 +46,34 @@ WHITE = [
     1897354060,
     1694909518,
     1755047203,
+    1948147616,
+    843716328,
 ]
 
-BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
+BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088, 843716328, 1948147616]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ᴧꝛᴧʙ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ Arab - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Arab-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
 <b>   ping_dc :</b> <code>{} ms</code>
 <b>   version :</b> <code>{}</code>
-<b>   nayalibs :</b> <code>{}</code>
+<b>   Arlibs :</b> <code>{}</code>
 <b>   uptime :</b> <code>{}</code>"""
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Bro Arab** 😁",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -92,9 +89,9 @@ async def naya(naya):
     await naya.reply("**Kynan Punya Nya Naya**🤩")
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Arab$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Arab nih boss**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
@@ -384,7 +381,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/naya1503/Naya-Userbot/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
